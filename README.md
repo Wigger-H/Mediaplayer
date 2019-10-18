@@ -16,20 +16,22 @@
 依赖包参照IJKMediaFramework的使用  
 
 ```
-Build Phases -> Link Binary with Libraries -> Add:  
-IJKMediaFramework.framework  
-AudioToolbox.framework  
-AVFoundation.framework  
-CoreGraphics.framework  
-CoreMedia.framework  
-CoreVideo.framework  
-libbz2.tbd  
-libz.tbd  
-MediaPlayer.framework  
-MobileCoreServices.framework  
-OpenGLES.framework  
-QuartzCore.framework  
-UIKit.framework  
-VideoToolbox.framework  
-libstdc++.tbd 
+#     Build Phases -> Link Binary with Libraries -> Add: 
+
+#           IJKMediaFramework.framework  
+#           AudioToolbox.framework  
+#           AVFoundation.framework  
+#           CoreGraphics.framework  
+#           CoreMedia.framework  
+#           CoreVideo.framework  
+#           libbz2.tbd  
+#           libz.tbd  
+#           MediaPlayer.framework  
+#           MobileCoreServices.framework  
+#           OpenGLES.framework  
+#           QuartzCore.framework  
+#           UIKit.framework  
+#           VideoToolbox.framework  
+#           libstdc++.tbd 
+# 
 ```
