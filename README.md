@@ -9,10 +9,30 @@
 5. 部分情况下需要使用HTTPS协议，demo中使用的是自注册SSL证书，来实现HTTPS的访问
 6. m3u8不支持客户端直接生成缩略图，视频缩略图请通过接口从服务器获取，改功能请自行实现  
 
-#DEMO使用介绍  
+# DEMO使用介绍  
 
 将网盘下载的IJKMediaFramework引入工程，网盘下载的output文件夹下的视频导入工程对应的路径  
 
 依赖包参照IJKMediaFramework的使用  
 
-
+(''')
+#     Build Phases -> Link Binary with Libraries -> Add:
+#         IJKMediaFramework.framework
+#
+#         AudioToolbox.framework
+#         AVFoundation.framework
+#         CoreGraphics.framework
+#         CoreMedia.framework
+#         CoreVideo.framework
+#         libbz2.tbd
+#         libz.tbd
+#         MediaPlayer.framework
+#         MobileCoreServices.framework
+#         OpenGLES.framework
+#         QuartzCore.framework
+#         UIKit.framework
+#         VideoToolbox.framework
+#
+#         libstdc++.tbd
+# 
+(''')
